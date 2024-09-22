@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  metadata: todo-client
+spec:
+  containers:
+    - image:  registry/user/image
+      name:  todo-client
+  restartPolicy: Never
+  
